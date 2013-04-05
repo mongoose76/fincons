@@ -1,0 +1,1488 @@
+2013/04/04 08:15:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\gii\GiiModule.php:168
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=gii
+---
+2013/04/04 08:19:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\gii\GiiModule.php:168
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=gii
+---
+2013/04/04 08:19:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\gii\GiiModule.php:168
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=gii
+---
+2013/04/04 08:54:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountLoc...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/
+---
+2013/04/04 08:55:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountLoc...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/
+---
+2013/04/04 08:55:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountLoc...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/AccountLocal
+---
+2013/04/04 08:57:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountLoc...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/AccountLocal
+---
+2013/04/04 08:57:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountsLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountsLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountsLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountsLo...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountsLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/AccountLocal
+---
+2013/04/04 08:57:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AccountsLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountsLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fincons/index.php?r=AccountsLocal
+---
+2013/04/04 08:57:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountsLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountsLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountsLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountsLo...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountsLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/AccountLocal
+---
+2013/04/04 08:57:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountsLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountsLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountsLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountsLo...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountsLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/AccountsLocal
+---
+2013/04/04 08:57:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountsLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountsLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountsLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountsLo...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountsLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/index
+---
+2013/04/04 08:58:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountsLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountsLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountsLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountsLo...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountsLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/index
+---
+2013/04/04 08:58:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountsLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountsLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountsLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountsLo...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountsLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/index
+---
+2013/04/04 08:58:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountsLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountsLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountsLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountsLo...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountsLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/index
+---
+2013/04/04 08:58:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountsLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountsLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountsLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountsLo...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountsLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/index
+---
+2013/04/04 08:58:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountsLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountsLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountsLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountsLo...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountsLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/index
+---
+2013/04/04 09:00:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountsLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountsLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountsLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountsLo...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountsLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/AccountsLocal
+---
+2013/04/04 09:00:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountLoc...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/AccountsLocal
+---
+2013/04/04 09:00:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountLoc...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/AccountLocal
+---
+2013/04/04 09:00:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountLoc...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/AccountLocal
+---
+2013/04/04 09:00:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountLoc...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/index
+---
+2013/04/04 09:00:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountLoc...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/login
+---
+2013/04/04 09:01:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountLoc...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php
+---
+2013/04/04 09:01:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountLoc...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/AccountLocal
+---
+2013/04/04 09:01:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountLoc...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/index
+---
+2013/04/04 09:16:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountLoc...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/index
+---
+2013/04/04 09:16:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountLoc...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/index
+---
+2013/04/04 09:16:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountLoc...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/index
+---
+2013/04/04 09:18:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountLoc...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/index
+---
+2013/04/04 09:18:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountLoc...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/index
+---
+2013/04/04 09:20:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountLoc...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/index
+---
+2013/04/04 09:21:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountLocal".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountLocal')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountLocal')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/AccountLoc...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/AccountLocal
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/index
+---
+2013/04/04 09:21:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountLocal/in...')
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/fincons/index.php?r=AccountLocal/index
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/AccountLocal
+---
+2013/04/04 09:21:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountLocal/in...')
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/fincons/index.php?r=AccountLocal/index
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=AccountLocal/index
+---
+2013/04/04 09:22:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountLocal/in...')
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/fincons/index.php?r=AccountLocal/index
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php
+---
+2013/04/04 09:23:28 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('')
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountLocal')
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/fincons/index.php?r=AccountLocal
+---
+2013/04/04 09:23:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('view')
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountLocal/vi...')
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/fincons/index.php?r=AccountLocal/view
+---
+2013/04/04 09:25:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountLocal/in...')
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/fincons/index.php?r=AccountLocal/index
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/login
+---
+2013/04/04 09:25:49 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountLocal/in...')
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/fincons/index.php?r=AccountLocal/index
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=AccountLocal/index
+---
+2013/04/04 09:25:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountLocal/in...')
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/fincons/index.php?r=AccountLocal/index
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=site/contact
+---
+2013/04/04 09:27:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test' for key 'name'. The SQL statement executed was: INSERT INTO `account_local` (`accounts_group_id`, `name`) VALUES (:yp0, :yp1).
+in E:\Dropbox\Work\fincons\protected\controllers\AccountLocalController.php (46)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/04 09:27:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test' for key 'name'. The SQL statement executed was: INSERT INTO `account_local` (`accounts_group_id`, `name`) VALUES (:yp0, :yp1)' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\db\CDbCommand.php:357
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 E:\Dropbox\Work\fincons\protected\controllers\AccountLocalController.php(46): CActiveRecord->save()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountLocalController->actionCreate()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('create')
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('accountLocal/cr...')
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/fincons/index.php?r=accountLocal/create
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=accountLocal/create
+---
+2013/04/04 11:24:42 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test' for key 'name'. The SQL statement executed was: INSERT INTO `account_local` (`accounts_group_id`, `name`) VALUES (:yp0, :yp1).
+in E:\Dropbox\Work\fincons\protected\controllers\AccountLocalController.php (46)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/04 11:24:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test' for key 'name'. The SQL statement executed was: INSERT INTO `account_local` (`accounts_group_id`, `name`) VALUES (:yp0, :yp1)' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\db\CDbCommand.php:357
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 E:\Dropbox\Work\fincons\protected\controllers\AccountLocalController.php(46): CActiveRecord->save()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountLocalController->actionCreate()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('create')
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('accountLocal/cr...')
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/fincons/index.php?r=accountLocal/create
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=accountLocal/create
+---
+2013/04/04 11:49:24 [error] [exception.CException] exception 'CException' with message 'Alias "application.components.ExportableGridBehavior" is invalid. Make sure it points to an existing PHP file and the file is readable.' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\YiiBase.php:316
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\YiiBase.php(196): YiiBase::import('application.com...', true)
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CComponent.php(326): YiiBase::createComponent(Array)
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CComponent.php(297): CComponent->attachBehavior('exportableGrid', Array)
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(114): CComponent->attachBehaviors(Array)
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(359): CController->__construct('accountLocal', NULL)
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(276): CWebApplication->createController('accountLocal/ad...')
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('accountLocal/ad...')
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/fincons/index.php?r=accountLocal/admin
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=AccountLocal/index
+---
+2013/04/04 11:49:41 [error] [php] Undefined variable: grid (E:\Dropbox\Work\fincons\protected\views\accountLocal\admin.php:75)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): AccountLocalController->renderFile()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): AccountLocalController->renderPartial()
+#2 E:\Dropbox\Work\fincons\protected\controllers\AccountLocalController.php(106): AccountLocalController->render()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountLocalController->actionAdmin()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): AccountLocalController->runAction()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): AccountLocalController->filterAccessControl()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AccountLocalController->runActionWithFilters()
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AccountLocalController->run()
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=accountLocal/admin
+in E:\Dropbox\Work\fincons\protected\views\accountLocal\admin.php (75)
+in E:\Dropbox\Work\fincons\protected\controllers\AccountLocalController.php (106)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/04 12:03:12 [error] [php] Undefined variable: model (E:\Dropbox\Work\fincons\protected\views\accountLocal\admin.php:4)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): AccountLocalController->renderFile()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): AccountLocalController->renderPartial()
+#2 E:\Dropbox\Work\fincons\protected\controllers\AccountLocalController.php(120): AccountLocalController->render()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountLocalController->actionAdmin()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): AccountLocalController->runAction()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): AccountLocalController->filterAccessControl()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AccountLocalController->runActionWithFilters()
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AccountLocalController->run()
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=accountLocal/admin
+in E:\Dropbox\Work\fincons\protected\views\accountLocal\admin.php (4)
+in E:\Dropbox\Work\fincons\protected\controllers\AccountLocalController.php (120)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/04 12:03:43 [error] [exception.CException] exception 'CException' with message 'Property "AccountLocalController.widget" is not defined.' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\Dropbox\Work\fincons\protected\views\accountLocal\admin.php(40): CComponent->__get('widget')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require('E:\Dropbox\Work...')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\Dropbox\Work...', Array, true)
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): CBaseController->renderFile('E:\Dropbox\Work...', Array, true)
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#5 E:\Dropbox\Work\fincons\protected\controllers\AccountLocalController.php(120): CController->render('admin', Array)
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountLocalController->actionAdmin()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#16 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('accountLocal/ad...')
+#17 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/fincons/index.php?r=accountLocal/admin
+---
+2013/04/04 12:38:57 [error] [exception.CException] exception 'CException' with message 'CButtonColumn and its behaviors do not have a method or closure named "renderDataCellContent".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CComponent.php:265
+Stack trace:
+#0 E:\Dropbox\Work\fincons\protected\extensions\EDataTables\ECellContentBehavior.php(12): CComponent->__call('renderDataCellC...', Array)
+#1 E:\Dropbox\Work\fincons\protected\extensions\EDataTables\ECellContentBehavior.php(12): CButtonColumn->renderDataCellContent(0, Object(AccountLocal))
+#2 [internal function]: ECellContentBehavior->getDataCellContent(0, Object(AccountLocal))
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#4 E:\Dropbox\Work\fincons\protected\extensions\EDataTables\EDataTables.php(722): CComponent->__call('getDataCellCont...', Array)
+#5 E:\Dropbox\Work\fincons\protected\extensions\EDataTables\EDataTables.php(722): CButtonColumn->getDataCellContent(0, Object(AccountLocal))
+#6 E:\Dropbox\Work\fincons\protected\controllers\AccountLocalController.php(114): EDataTables->getFormattedData(2)
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountLocalController->actionAdmin()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#15 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#17 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('accountLocal/ad...')
+#18 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#19 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/fincons/index.php?r=accountLocal/admin&sEcho=2&sColumns=id%2Caccounts_group_id%2Cname%2Cunnamed3&iDisplayStart=25&iDisplayLength=25&sSearch=&iSortingCols=0&ajax=account-local-grid&visibleColumns=0%2C1%2C2%2C3
+HTTP_REFERER=http://localhost/fincons/index.php?r=accountLocal/admin
+---
+2013/04/04 12:39:03 [error] [exception.CException] exception 'CException' with message 'CButtonColumn and its behaviors do not have a method or closure named "renderDataCellContent".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CComponent.php:265
+Stack trace:
+#0 E:\Dropbox\Work\fincons\protected\extensions\EDataTables\ECellContentBehavior.php(12): CComponent->__call('renderDataCellC...', Array)
+#1 E:\Dropbox\Work\fincons\protected\extensions\EDataTables\ECellContentBehavior.php(12): CButtonColumn->renderDataCellContent(0, Object(AccountLocal))
+#2 [internal function]: ECellContentBehavior->getDataCellContent(0, Object(AccountLocal))
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#4 E:\Dropbox\Work\fincons\protected\extensions\EDataTables\EDataTables.php(722): CComponent->__call('getDataCellCont...', Array)
+#5 E:\Dropbox\Work\fincons\protected\extensions\EDataTables\EDataTables.php(722): CButtonColumn->getDataCellContent(0, Object(AccountLocal))
+#6 E:\Dropbox\Work\fincons\protected\controllers\AccountLocalController.php(114): EDataTables->getFormattedData(3)
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountLocalController->actionAdmin()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#15 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#17 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('accountLocal/ad...')
+#18 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#19 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/fincons/index.php?r=accountLocal/admin&sEcho=3&sColumns=id%2Caccounts_group_id%2Cname%2Cunnamed3&iDisplayStart=25&iDisplayLength=25&sSearch=&iSortingCols=0&ajax=account-local-grid&visibleColumns=0%2C1%2C2%2C3
+HTTP_REFERER=http://localhost/fincons/index.php?r=accountLocal/admin
+---
+2013/04/04 14:23:55 [error] [exception.CException] exception 'CException' with message 'Property "AccountLocal.accounts_group_id" is not defined.' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(143): CComponent->__get('accounts_group_...')
+#1 E:\Dropbox\Work\fincons\protected\models\_base\BaseAccountLocal.php(66): CActiveRecord->__get('accounts_group_...')
+#2 E:\Dropbox\Work\fincons\protected\controllers\AccountLocalController.php(100): BaseAccountLocal->search()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountLocalController->actionAdmin()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('accountLocal/ad...')
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/fincons/index.php?r=accountLocal/admin
+HTTP_REFERER=http://localhost/fincons/index.php?r=AccountLocal/index
+---
+2013/04/04 14:24:23 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\gii\GiiModule.php:168
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=gii
+---
+2013/04/04 14:26:04 [error] [exception.CException] exception 'CException' with message 'Property "AccountLocal.accounts_group_id" is not defined.' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(143): CComponent->__get('accounts_group_...')
+#1 E:\Dropbox\Work\fincons\protected\views\accountLocal\_view.php(8): CActiveRecord->__get('accounts_group_...')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(130): require('E:\Dropbox\Work...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\Dropbox\Work...', Array, false)
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\zii\widgets\CListView.php(281): CBaseController->renderFile('E:\Dropbox\Work...', Array)
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\zii\widgets\CBaseListView.php(160): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\zii\widgets\CBaseListView.php(128): CBaseListView->renderContent()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 E:\Dropbox\Work\fincons\protected\views\accountLocal\index.php(19): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require('E:\Dropbox\Work...')
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\Dropbox\Work...', Array, true)
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): CBaseController->renderFile('E:\Dropbox\Work...', Array, true)
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#15 E:\Dropbox\Work\fincons\protected\controllers\AccountLocalController.php(88): CController->render('index', Array)
+#16 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountLocalController->actionIndex()
+#17 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#24 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#26 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountLocal/in...')
+#27 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#28 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/fincons/index.php?r=AccountLocal/index
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/
+---
+2013/04/04 15:22:55 [error] [php] include(Currency.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\YiiBase.php:421)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(386): spl_autoload_call()
+#1 E:\Dropbox\Work\fincons\protected\extensions\giix-components\GxActiveRecord.php(26): model()
+#2 E:\Dropbox\Work\fincons\protected\extensions\giix-components\GxActiveRecord.php(119): model()
+#3 E:\Dropbox\Work\fincons\protected\extensions\giix-components\GxActiveRecord.php(165): Company->getRelationLabel()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\helpers\CHtml.php(1213): Company->getAttributeLabel()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\widgets\CActiveForm.php(547): activeLabel()
+#6 E:\Dropbox\Work\fincons\protected\views\company\_search.php(19): GxActiveForm->label()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): CompanyController->renderInternal()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): CompanyController->renderFile()
+#10 E:\Dropbox\Work\fincons\protected\views\company\admin.php(37): CompanyController->renderPartial()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require()
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): CompanyController->renderInternal()
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): CompanyController->renderFile()
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CompanyController->renderPartial()
+#15 E:\Dropbox\Work\fincons\protected\controllers\CompanyController.php(73): CompanyController->render()
+#16 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): CompanyController->actionAdmin()
+#17 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CompanyController->runAction()
+#19 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CompanyController->runActionWithFilters()
+#20 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CompanyController->run()
+#21 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#22 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=Company/admin
+in E:\Dropbox\Work\fincons\protected\extensions\giix-components\GxActiveRecord.php (26)
+in E:\Dropbox\Work\fincons\protected\extensions\giix-components\GxActiveRecord.php (119)
+in E:\Dropbox\Work\fincons\protected\extensions\giix-components\GxActiveRecord.php (165)
+2013/04/04 15:22:58 [error] [php] include(Currency.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\YiiBase.php:421)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(386): spl_autoload_call()
+#1 E:\Dropbox\Work\fincons\protected\extensions\giix-components\GxActiveRecord.php(26): model()
+#2 E:\Dropbox\Work\fincons\protected\extensions\giix-components\GxActiveRecord.php(119): model()
+#3 E:\Dropbox\Work\fincons\protected\extensions\giix-components\GxActiveRecord.php(165): Company->getRelationLabel()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\helpers\CHtml.php(1213): Company->getAttributeLabel()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\widgets\CActiveForm.php(547): activeLabel()
+#6 E:\Dropbox\Work\fincons\protected\views\company\_search.php(19): GxActiveForm->label()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): CompanyController->renderInternal()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): CompanyController->renderFile()
+#10 E:\Dropbox\Work\fincons\protected\views\company\admin.php(37): CompanyController->renderPartial()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require()
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): CompanyController->renderInternal()
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): CompanyController->renderFile()
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CompanyController->renderPartial()
+#15 E:\Dropbox\Work\fincons\protected\controllers\CompanyController.php(73): CompanyController->render()
+#16 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): CompanyController->actionAdmin()
+#17 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CompanyController->runAction()
+#19 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CompanyController->runActionWithFilters()
+#20 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CompanyController->run()
+#21 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#22 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=company/admin
+in E:\Dropbox\Work\fincons\protected\extensions\giix-components\GxActiveRecord.php (26)
+in E:\Dropbox\Work\fincons\protected\extensions\giix-components\GxActiveRecord.php (119)
+in E:\Dropbox\Work\fincons\protected\extensions\giix-components\GxActiveRecord.php (165)
+2013/04/04 15:23:00 [error] [php] include(Currency.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\YiiBase.php:421)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(386): spl_autoload_call()
+#1 E:\Dropbox\Work\fincons\protected\extensions\giix-components\GxActiveRecord.php(26): model()
+#2 E:\Dropbox\Work\fincons\protected\extensions\giix-components\GxActiveRecord.php(119): model()
+#3 E:\Dropbox\Work\fincons\protected\extensions\giix-components\GxActiveRecord.php(165): Company->getRelationLabel()
+#4 E:\Dropbox\Work\fincons\protected\views\company\_view.php(10): Company->getAttributeLabel()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(130): require()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): CompanyController->renderInternal()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\zii\widgets\CListView.php(281): CompanyController->renderFile()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\zii\widgets\CBaseListView.php(160): CListView->renderItems()
+#9 unknown(0): CListView->renderSection()
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\zii\widgets\CBaseListView.php(128): CListView->renderContent()
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(173): CListView->run()
+#13 E:\Dropbox\Work\fincons\protected\views\company\index.php(19): CompanyController->widget()
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require()
+#15 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): CompanyController->renderInternal()
+#16 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): CompanyController->renderFile()
+#17 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CompanyController->renderPartial()
+#18 E:\Dropbox\Work\fincons\protected\controllers\CompanyController.php(61): CompanyController->render()
+#19 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): CompanyController->actionIndex()
+#20 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#21 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CompanyController->runAction()
+#22 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CompanyController->runActionWithFilters()
+#23 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CompanyController->run()
+#24 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#25 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#26 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=company/index
+in E:\Dropbox\Work\fincons\protected\extensions\giix-components\GxActiveRecord.php (26)
+in E:\Dropbox\Work\fincons\protected\extensions\giix-components\GxActiveRecord.php (119)
+in E:\Dropbox\Work\fincons\protected\extensions\giix-components\GxActiveRecord.php (165)
+2013/04/04 15:23:01 [error] [php] include(Currency.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\YiiBase.php:421)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(386): spl_autoload_call()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\db\ar\CActiveFinder.php(215): model()
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(271): CActiveFinder->__construct()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(141): Company->getRelated()
+#5 E:\Dropbox\Work\fincons\protected\views\company\view.php(27): Company->__get()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): CompanyController->renderInternal()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): CompanyController->renderFile()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CompanyController->renderPartial()
+#10 E:\Dropbox\Work\fincons\protected\controllers\CompanyController.php(9): CompanyController->render()
+#11 unknown(0): CompanyController->actionView()
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CompanyController->runAction()
+#16 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CompanyController->runActionWithFilters()
+#17 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CompanyController->run()
+#18 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#20 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=company/view&id=10
+in E:\Dropbox\Work\fincons\protected\views\company\view.php (27)
+in E:\Dropbox\Work\fincons\protected\controllers\CompanyController.php (9)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/04 16:50:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getStatusList".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('getStatusList')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('getStatusList')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/getStatusL...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/getStatusList&name=name&_=1365094228949
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=AccountGroup/admin
+---
+2013/04/04 16:50:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getStatusList".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('getStatusList')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('getStatusList')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/getStatusL...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/getStatusList&name=name&_=1365094232764
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=AccountGroup/admin
+---
+2013/04/04 16:53:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "updateUser".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('updateUser')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('updateUser')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/updateUser')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=site/updateUser
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=AccountGroup/admin
+---
+2013/04/04 17:58:23 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:336
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('update')
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountGroup/up...')
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/fincons/index.php?r=AccountGroup/update
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=AccountGroup/admin
+---
+2013/04/04 18:01:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:336
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('update')
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountGroup/up...')
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/fincons/index.php?r=AccountGroup/update
+---
+2013/04/04 18:04:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update?id=23".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('update?id=23')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('update?id=23')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountGroup/up...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=AccountGroup/update?id=23
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=AccountGroup/admin
+---
+2013/04/04 18:05:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "AccountGroup?r=update".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('AccountGroup?r=...')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('AccountGroup?r=...')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('accountGroup/Ac...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=accountGroup/AccountGroup?r=update&id=23
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=AccountGroup/admin
+---
+2013/04/04 18:05:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php:160
+Stack trace:
+#0 E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php(88): AccountGroupController->loadModel('')
+#1 [internal function]: AccountGroupController->actionUpdate('')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(AccountGroupController), Array)
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(AccountGroupController), Object(ReflectionMethod), Array)
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('update')
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountGroup/up...')
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/fincons/index.php?r=AccountGroup/update&id=
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=AccountGroup/admin
+---
+2013/04/04 18:06:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php:160
+Stack trace:
+#0 E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php(88): AccountGroupController->loadModel('')
+#1 [internal function]: AccountGroupController->actionUpdate('')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(AccountGroupController), Array)
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(AccountGroupController), Object(ReflectionMethod), Array)
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('update')
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountGroup/up...')
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/fincons/index.php?r=AccountGroup/update&id=
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=AccountGroup/admin
+---
+2013/04/04 18:06:58 [error] [php] Undefined variable: data (E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php:55)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): AccountGroupController->renderFile()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): AccountGroupController->renderPartial()
+#2 E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php(148): AccountGroupController->render()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountGroupController->actionAdmin()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): AccountGroupController->runAction()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): AccountGroupController->filterAccessControl()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AccountGroupController->runActionWithFilters()
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AccountGroupController->run()
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=AccountGroup/admin
+in E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php (55)
+in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php (148)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/04 18:09:28 [error] [php] Undefined variable: data (E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php:55)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): AccountGroupController->renderFile()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): AccountGroupController->renderPartial()
+#2 E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php(148): AccountGroupController->render()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountGroupController->actionAdmin()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): AccountGroupController->runAction()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): AccountGroupController->filterAccessControl()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AccountGroupController->runActionWithFilters()
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AccountGroupController->run()
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=AccountGroup/admin
+in E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php (55)
+in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php (148)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/04 18:11:09 [error] [php] Use of undefined constant id - assumed 'id' (E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php:55)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): AccountGroupController->renderFile()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): AccountGroupController->renderPartial()
+#2 E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php(148): AccountGroupController->render()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountGroupController->actionAdmin()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): AccountGroupController->runAction()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): AccountGroupController->filterAccessControl()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AccountGroupController->runActionWithFilters()
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AccountGroupController->run()
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=AccountGroup/admin
+in E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php (55)
+in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php (148)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/04 18:11:10 [error] [php] Use of undefined constant id - assumed 'id' (E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php:55)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): AccountGroupController->renderFile()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): AccountGroupController->renderPartial()
+#2 E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php(148): AccountGroupController->render()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountGroupController->actionAdmin()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): AccountGroupController->runAction()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): AccountGroupController->filterAccessControl()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AccountGroupController->runActionWithFilters()
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AccountGroupController->run()
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=AccountGroup/admin
+in E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php (55)
+in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php (148)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/04 18:11:11 [error] [php] Use of undefined constant id - assumed 'id' (E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php:55)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): AccountGroupController->renderFile()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): AccountGroupController->renderPartial()
+#2 E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php(148): AccountGroupController->render()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountGroupController->actionAdmin()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): AccountGroupController->runAction()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): AccountGroupController->filterAccessControl()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AccountGroupController->runActionWithFilters()
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AccountGroupController->run()
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=AccountGroup/admin
+in E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php (55)
+in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php (148)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/04 18:11:11 [error] [php] Use of undefined constant id - assumed 'id' (E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php:55)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): AccountGroupController->renderFile()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): AccountGroupController->renderPartial()
+#2 E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php(148): AccountGroupController->render()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountGroupController->actionAdmin()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): AccountGroupController->runAction()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): AccountGroupController->filterAccessControl()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AccountGroupController->runActionWithFilters()
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AccountGroupController->run()
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=AccountGroup/admin
+in E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php (55)
+in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php (148)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/04 18:11:17 [error] [php] Undefined variable: data (E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php:55)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): AccountGroupController->renderFile()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): AccountGroupController->renderPartial()
+#2 E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php(148): AccountGroupController->render()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountGroupController->actionAdmin()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): AccountGroupController->runAction()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): AccountGroupController->filterAccessControl()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AccountGroupController->runActionWithFilters()
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AccountGroupController->run()
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=AccountGroup/admin
+in E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php (55)
+in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php (148)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/04 18:11:23 [error] [php] Undefined variable: data (E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php:55)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): AccountGroupController->renderFile()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): AccountGroupController->renderPartial()
+#2 E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php(148): AccountGroupController->render()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountGroupController->actionAdmin()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): AccountGroupController->runAction()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): AccountGroupController->filterAccessControl()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AccountGroupController->runActionWithFilters()
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AccountGroupController->run()
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=AccountGroup/admin
+in E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php (55)
+in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php (148)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/04 18:11:29 [error] [php] Undefined variable: data (E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php:55)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): AccountGroupController->renderFile()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): AccountGroupController->renderPartial()
+#2 E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php(148): AccountGroupController->render()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountGroupController->actionAdmin()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): AccountGroupController->runAction()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): AccountGroupController->filterAccessControl()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AccountGroupController->runActionWithFilters()
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AccountGroupController->run()
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=AccountGroup/admin
+in E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php (55)
+in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php (148)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/04 18:11:43 [error] [php] Undefined variable: data (E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php:55)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): AccountGroupController->renderFile()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): AccountGroupController->renderPartial()
+#2 E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php(148): AccountGroupController->render()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountGroupController->actionAdmin()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): AccountGroupController->runAction()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): AccountGroupController->filterAccessControl()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AccountGroupController->runActionWithFilters()
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AccountGroupController->run()
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=AccountGroup/admin
+in E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php (55)
+in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php (148)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/05 07:35:55 [error] [php] Undefined variable: data (E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php:55)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): AccountGroupController->renderFile()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): AccountGroupController->renderPartial()
+#2 E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php(148): AccountGroupController->render()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountGroupController->actionAdmin()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): AccountGroupController->runAction()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): AccountGroupController->filterAccessControl()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AccountGroupController->runActionWithFilters()
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AccountGroupController->run()
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=AccountGroup/admin
+in E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php (55)
+in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php (148)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/05 08:27:41 [error] [php] Undefined variable: data (E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php:55)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): AccountGroupController->renderFile()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): AccountGroupController->renderPartial()
+#2 E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php(148): AccountGroupController->render()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountGroupController->actionAdmin()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): AccountGroupController->runAction()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): AccountGroupController->filterAccessControl()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AccountGroupController->runActionWithFilters()
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AccountGroupController->run()
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=AccountGroup/admin
+in E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php (55)
+in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php (148)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/05 08:44:56 [error] [php] Undefined variable: data (E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php:55)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(869): AccountGroupController->renderFile()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(782): AccountGroupController->renderPartial()
+#2 E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php(148): AccountGroupController->render()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountGroupController->actionAdmin()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): AccountGroupController->runAction()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): AccountGroupController->filterAccessControl()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AccountGroupController->runActionWithFilters()
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AccountGroupController->run()
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=AccountGroup/admin
+in E:\Dropbox\Work\fincons\protected\views\accountGroup\admin.php (55)
+in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php (148)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/05 08:47:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php:160
+Stack trace:
+#0 E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php(88): AccountGroupController->loadModel('{$data->id}')
+#1 [internal function]: AccountGroupController->actionUpdate('{$data->id}')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(AccountGroupController), Array)
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(AccountGroupController), Object(ReflectionMethod), Array)
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('update')
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountGroup/up...')
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/fincons/index.php?r=AccountGroup/update&id={$data-%3Eid}
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=AccountGroup/admin
+---
+2013/04/05 08:47:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php:160
+Stack trace:
+#0 E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php(88): AccountGroupController->loadModel('{$data->id}')
+#1 [internal function]: AccountGroupController->actionUpdate('{$data->id}')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(AccountGroupController), Array)
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(AccountGroupController), Object(ReflectionMethod), Array)
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('update')
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountGroup/up...')
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/fincons/index.php?r=AccountGroup/update&id={$data-%3Eid}
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=AccountGroup/admin
+---
+2013/04/05 08:50:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php:160
+Stack trace:
+#0 E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php(88): AccountGroupController->loadModel('{$data->id}')
+#1 [internal function]: AccountGroupController->actionUpdate('{$data->id}')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(AccountGroupController), Array)
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(AccountGroupController), Object(ReflectionMethod), Array)
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('update')
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountGroup/up...')
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/fincons/index.php?r=AccountGroup/update&id={$data-%3Eid}
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=AccountGroup/admin
+---
+2013/04/05 08:51:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:336
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('update')
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountGroup/up...')
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/fincons/index.php?r=AccountGroup/update
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=AccountGroup/admin
+---
+2013/04/05 09:04:27 [error] [php] Undefined index: AccountGroup (E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php:88)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): AccountGroupController->runAction()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): AccountGroupController->filterAccessControl()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AccountGroupController->runActionWithFilters()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AccountGroupController->run()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=AccountGroup/update
+in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php (88)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/05 09:04:31 [error] [php] Undefined index: AccountGroup (E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php:88)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): AccountGroupController->runAction()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): AccountGroupController->filterAccessControl()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AccountGroupController->runActionWithFilters()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AccountGroupController->run()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=AccountGroup/update
+in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php (88)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/05 09:05:01 [error] [php] Undefined index: AccountGroup (E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php:88)
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): AccountGroupController->runAction()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): AccountGroupController->filterAccessControl()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AccountGroupController->runActionWithFilters()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AccountGroupController->run()
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\Dropbox\Work\fincons\index.php(13): CWebApplication->run()
+REQUEST_URI=/fincons/index.php?r=AccountGroup/update
+in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php (88)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/05 09:09:09 [warning] [application] Failed to set unsafe attribute "value" of "AccountGroup".
+in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php (96)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/05 09:09:09 [warning] [application] Failed to set unsafe attribute "pk" of "AccountGroup".
+in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php (96)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/05 09:09:39 [warning] [application] Failed to set unsafe attribute "value" of "AccountGroup".
+in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php (96)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/05 09:09:39 [warning] [application] Failed to set unsafe attribute "pk" of "AccountGroup".
+in E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php (96)
+in E:\Dropbox\Work\fincons\index.php (13)
+2013/04/05 09:22:37 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Name "Accrued income" has already been taken.' in E:\Dropbox\Work\fincons\protected\extensions\x-editable\EditableSaver.php:167
+Stack trace:
+#0 E:\Dropbox\Work\fincons\protected\extensions\x-editable\EditableSaver.php(156): EditableSaver->error('Name "Accrued i...')
+#1 E:\Dropbox\Work\fincons\protected\extensions\x-editable\EditableSaver.php(127): EditableSaver->checkErrors()
+#2 E:\Dropbox\Work\fincons\protected\controllers\AccountGroupController.php(89): EditableSaver->update()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountGroupController->actionUpdate()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('update')
+#13 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountGroup/up...')
+#14 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/fincons/index.php?r=AccountGroup/update
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=AccountGroup/admin
+---
+2013/04/05 16:07:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getGroupAccountList".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('getGroupAccount...')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('getGroupAccount...')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountLocal/ge...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=AccountLocal/getGroupAccountList&name=account_group_id&_=1365178032496
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=AccountLocal/admin
+---
+2013/04/05 16:07:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getGroupAccountList".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('getGroupAccount...')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('getGroupAccount...')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountLocal/ge...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=AccountLocal/getGroupAccountList&name=account_group_id&_=1365178033920
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=AccountLocal/admin
+---
+2013/04/05 16:22:34 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Name "PROFIT AND LOSS 2" has already been taken.' in E:\Dropbox\Work\fincons\protected\extensions\x-editable\EditableSaver.php:167
+Stack trace:
+#0 E:\Dropbox\Work\fincons\protected\extensions\x-editable\EditableSaver.php(156): EditableSaver->error('Name "PROFIT AN...')
+#1 E:\Dropbox\Work\fincons\protected\extensions\x-editable\EditableSaver.php(127): EditableSaver->checkErrors()
+#2 E:\Dropbox\Work\fincons\protected\controllers\AccountLocalController.php(32): EditableSaver->update()
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AccountLocalController->actionUpdate()
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('update')
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('AccountLocal/up...')
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/fincons/index.php?r=AccountLocal/update
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=AccountLocal/admin
+---
