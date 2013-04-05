@@ -5,7 +5,6 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Company','url'=>array('index')),
 	array('label'=>'Create Company','url'=>array('create')),
 );
 

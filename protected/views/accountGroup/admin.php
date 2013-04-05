@@ -5,7 +5,6 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List AccountGroup','url'=>array('index')),
 	array('label'=>'Create AccountGroup','url'=>array('create')),
 );
 
