@@ -1,6 +1,6 @@
 <?php
 
-class CurrencyController extends Controller
+class ReportingPeriodController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -37,7 +37,10 @@ class CurrencyController extends Controller
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
 				'users'=>array('admin'),
-			)
+			),
+			array('deny',  // deny all users
+				'users'=>array('*'),
+			),
 		);
 	}
 
@@ -58,16 +61,16 @@ class CurrencyController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Currency;
+		$model=new ReportingPeriod;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Currency']))
+		if(isset($_POST['ReportingPeriod']))
 		{
-			$model->attributes=$_POST['Currency'];
+			$model->attributes=$_POST['ReportingPeriod'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->iso3));
+				$this->redirect(array('view','id'=>$model->id));
 		}
 
 		$this->render('create',array(
@@ -77,11 +80,26 @@ class CurrencyController extends Controller
 
 	/**
 	 * Updates a particular model.
+	 * If update is successful, the browser will be redirected to the 'view' page.
+	 * @param integer $id the ID of the model to be updated
 	 */
-	public function actionUpdate()
+	public function actionUpdate($id)
 	{
-		$es = new EditableSaver('Currency');
-    	$es->update();
+		$model=$this->loadModel($id);
+
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+
+		if(isset($_POST['ReportingPeriod']))
+		{
+			$model->attributes=$_POST['ReportingPeriod'];
+			if($model->save())
+				$this->redirect(array('view','id'=>$model->id));
+		}
+
+		$this->render('update',array(
+			'model'=>$model,
+		));
 	}
 
 	/**
@@ -109,7 +127,7 @@ class CurrencyController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Currency');
+		$dataProvider=new CActiveDataProvider('ReportingPeriod');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
@@ -120,10 +138,10 @@ class CurrencyController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Currency('search');
+		$model=new ReportingPeriod('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Currency']))
-			$model->attributes=$_GET['Currency'];
+		if(isset($_GET['ReportingPeriod']))
+			$model->attributes=$_GET['ReportingPeriod'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -137,7 +155,7 @@ class CurrencyController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=Currency::model()->findByPk($id);
+		$model=ReportingPeriod::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -149,15 +167,10 @@ class CurrencyController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='currency-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='reporting-period-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
 		}
 	}
-	
-	public function actionGetDropDownList()
-	{
-		echo CJSON::encode(CHtml::listData(Currency::model()->findAll(), 'iso3', 'iso3'));
-	}	
 }

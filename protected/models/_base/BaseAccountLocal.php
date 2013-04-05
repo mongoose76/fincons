@@ -75,6 +75,9 @@ abstract class BaseAccountLocal extends GxActiveRecord {
 		return new CActiveDataProvider($this, array(
 			'criteria' => $criteria,
 			'sort'=>array('defaultOrder'=>'ax_account ASC'),
+			'pagination'=>array(
+					'PageSize'=>20,
+			),
 		));
 	}
 }

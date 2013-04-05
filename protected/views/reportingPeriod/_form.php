@@ -1,5 +1,5 @@
 <?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm',array(
-	'id'=>'currency-form',
+	'id'=>'reporting-period-form',
 	'enableAjaxValidation'=>false,
 )); ?>
 
@@ -7,7 +7,7 @@
 
 	<?php echo $form->errorSummary($model); ?>
 
-	<?php echo $form->textFieldRow($model,'iso3',array('class'=>'span5','maxlength'=>3)); ?>
+	<?php echo $form->textFieldRow($model,'description',array('class'=>'span5','maxlength'=>200)); ?>
 
 	<div class="form-actions">
 		<?php $this->widget('bootstrap.widgets.TbButton', array(

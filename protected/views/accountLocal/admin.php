@@ -1,7 +1,7 @@
 <?php
 
 $this->breadcrumbs = array(
-	$model->label(2) => array('index'),
+	$model->label(2) => array('admin'),
 	Yii::t('app', 'Manage'),
 );
 
@@ -23,18 +23,7 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1><?php echo Yii::t('app', 'Manage') . ' ' . GxHtml::encode($model->label(2)); ?></h1>
-
-<p>
-You may optionally enter a comparison operator (&lt;, &lt;=, &gt;, &gt;=, &lt;&gt; or =) at the beginning of each of your search values to specify how the comparison should be done.
-</p>
-
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button btn')); ?>
-<div class="search-form" style="display:none">
-<?php $this->renderPartial('_search',array(
-	'model'=>$model,
-)); ?>
-</div><!-- search-form -->
+<h2><?php echo GxHtml::encode($model->label(2)); ?></h2>
 
 <?php $this->widget('bootstrap.widgets.TbGridView', array(
     'id' => 'account-local-grid',
@@ -54,7 +43,7 @@ You may optionally enter a comparison operator (&lt;, &lt;=, &gt;, &gt;=, &lt;&g
 		array(
            'class' => 'editable.EditableColumn',
            'name' => 'name',
-           'headerHtmlOptions' => array('style' => 'width: 100px'),
+           'headerHtmlOptions' => array('style' => 'width: 300px'),
            'editable' => array(
                   'url'        => $this->createUrl('AccountLocal/update'),
                   'placement'  => 'right',

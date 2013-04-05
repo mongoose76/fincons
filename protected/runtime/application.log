@@ -1725,3 +1725,102 @@ Stack trace:
 #11 {main}
 REQUEST_URI=/fincons/index.php?r=AccountGroup/getDropDownList&name=account_group_id&_=1365180679352
 ---
+2013/04/05 20:09:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getDropDownList".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('getDropDownList')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('getDropDownList')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('Currency/getDro...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=Currency/getDropDownList&name=currency_iso3&_=1365192558273
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=Company/admin
+---
+2013/04/05 20:09:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getDropDownList".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('getDropDownList')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('getDropDownList')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('Currency/getDro...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=Currency/getDropDownList&name=currency_iso3&_=1365192559712
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=Company/admin
+---
+2013/04/05 20:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getDropDownList".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('getDropDownList')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('getDropDownList')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('Currency/getDro...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=Currency/getDropDownList&name=currency_iso3&_=1365192561115
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=Company/admin
+---
+2013/04/05 20:09:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getDropDownList".' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('getDropDownList')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('getDropDownList')
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('Currency/getDro...')
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fincons/index.php?r=Currency/getDropDownList&name=currency_iso3&_=1365192561115
+---
+2013/04/05 20:10:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('getDropDownList')
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('Currency/getDro...')
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/fincons/index.php?r=Currency/getDropDownList&name=currency_iso3&_=1365192561115
+---
+2013/04/05 20:14:58 [error] [exception.CException] exception 'CException' with message 'Property "attribute" should be defined.' in E:\Dropbox\Work\fincons\protected\extensions\x-editable\EditableSaver.php:94
+Stack trace:
+#0 E:\Dropbox\Work\fincons\protected\controllers\CompanyController.php(86): EditableSaver->update()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): CompanyController->actionUpdate()
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('update')
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('company/update')
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/fincons/index.php?r=company/update&id=18
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=company/view&id=18
+---
+2013/04/05 20:15:11 [error] [exception.CException] exception 'CException' with message 'Property "attribute" should be defined.' in E:\Dropbox\Work\fincons\protected\extensions\x-editable\EditableSaver.php:94
+Stack trace:
+#0 E:\Dropbox\Work\fincons\protected\controllers\CompanyController.php(86): EditableSaver->update()
+#1 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): CompanyController->actionUpdate()
+#2 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#9 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('update')
+#11 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('company/update')
+#12 E:\Dropbox\Work\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 E:\Dropbox\Work\fincons\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/fincons/index.php?r=company/update&id=18
+HTTP_REFERER=http://mongoose76.no-ip.org/fincons/index.php?r=company/view&id=18
+---

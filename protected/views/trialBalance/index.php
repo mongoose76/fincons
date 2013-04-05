@@ -1,15 +1,15 @@
 <?php
 $this->breadcrumbs=array(
-	'Currencies',
+	'Trial Balances',
 );
 
 $this->menu=array(
-	array('label'=>'Create Currency','url'=>array('create')),
-	array('label'=>'Manage Currency','url'=>array('admin')),
+	array('label'=>'Create TrialBalance','url'=>array('create')),
+	array('label'=>'Manage TrialBalance','url'=>array('admin')),
 );
 ?>
 
-<h1>Currencies</h1>
+<h1>Trial Balances</h1>
 
 <?php $this->widget('bootstrap.widgets.TbListView',array(
 	'dataProvider'=>$dataProvider,

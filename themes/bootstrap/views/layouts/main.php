@@ -20,9 +20,12 @@
             'class'=>'bootstrap.widgets.TbMenu',
             'items'=>array(
                 array('label'=>'Home', 'url'=>array('/site/index')),
+            	array('label'=>'Trial Balance', 'url'=>array('/TrialBalance/admin')),
             	array('label'=>'Local Accounts', 'url'=>array('/AccountLocal/admin')),
             	array('label'=>'Group Accounts', 'url'=>array('/AccountGroup/admin')),
             	array('label'=>'Companies', 'url'=>array('/Company/admin')),
+            	array('label'=>'Currencies', 'url'=>array('/Currency/admin')),
+            	array('label'=>'Reporting Period', 'url'=>array('/ReportingPeriod/admin')),
                 array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
                 array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
             ),

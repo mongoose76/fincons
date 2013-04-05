@@ -1,15 +1,15 @@
 <?php
 $this->breadcrumbs=array(
-	'Currencies',
+	'Reporting Periods',
 );
 
 $this->menu=array(
-	array('label'=>'Create Currency','url'=>array('create')),
-	array('label'=>'Manage Currency','url'=>array('admin')),
+	array('label'=>'Create ReportingPeriod','url'=>array('create')),
+	array('label'=>'Manage ReportingPeriod','url'=>array('admin')),
 );
 ?>
 
-<h1>Currencies</h1>
+<h1>Reporting Periods</h1>
 
 <?php $this->widget('bootstrap.widgets.TbListView',array(
 	'dataProvider'=>$dataProvider,
