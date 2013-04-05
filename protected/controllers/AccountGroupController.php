@@ -160,4 +160,9 @@ class AccountGroupController extends Controller
 			Yii::app()->end();
 		}
 	}
+	
+	public function actionGetDropDownList()
+	{
+		echo CJSON::encode(CHtml::listData(AccountGroup::model()->findAll(), 'id', 'name'));
+	}
 }

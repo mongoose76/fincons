@@ -1,14 +1,16 @@
 <div class="view">
 
-	<?php echo GxHtml::encode($data->getAttributeLabel('id')); ?>:
-	<?php echo GxHtml::link(GxHtml::encode($data->id), array('view', 'id' => $data->id)); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('id')); ?>:</b>
+	<?php echo CHtml::link(CHtml::encode($data->id),array('view','id'=>$data->id)); ?>
 	<br />
 
-	<?php echo GxHtml::encode($data->getAttributeLabel('name')); ?>:
-	<?php echo GxHtml::encode($data->name); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('name')); ?>:</b>
+	<?php echo CHtml::encode($data->name); ?>
 	<br />
-	<?php echo GxHtml::encode($data->getAttributeLabel('currency_iso3')); ?>:
-		<?php echo GxHtml::encode(GxHtml::valueEx($data->currencyIso3)); ?>
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('currency_iso3')); ?>:</b>
+	<?php echo CHtml::encode($data->currency_iso3); ?>
 	<br />
+
 
 </div>

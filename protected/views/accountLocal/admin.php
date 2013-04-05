@@ -41,6 +41,7 @@ You may optionally enter a comparison operator (&lt;, &lt;=, &gt;, &gt;=, &lt;&g
     'id' => 'account-local-grid',
     'itemsCssClass' => 'table-bordered',
     'dataProvider' => $model->search(),
+	'filter'=>$model,
     'columns'=>array(
         array(
            'class' => 'editable.EditableColumn',
@@ -67,7 +68,7 @@ You may optionally enter a comparison operator (&lt;, &lt;=, &gt;, &gt;=, &lt;&g
 		'editable' => array(
 				'type'     => 'select',
 				'url'      => $this->createUrl('AccountLocal/update'),
-				'source'   => $this->createUrl('AccountLocal/getGroupAccountList'),
+				'source'   => $this->createUrl('AccountGroup/getDropDownList'),
 				'options'  => array(    //custom display
 						'display' => 'js: function(value, sourceData) {
                           var selected = $.grep(sourceData, function(o){ return value == o.value; }),

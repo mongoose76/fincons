@@ -1,14 +1,13 @@
 <?php
-
-$this->breadcrumbs = array(
-	$model->label(2) => array('index'),
-	Yii::t('app', 'Manage'),
+$this->breadcrumbs=array(
+	'Companies'=>array('index'),
+	'Manage',
 );
 
-$this->menu = array(
-		array('label'=>Yii::t('app', 'List') . ' ' . $model->label(2), 'url'=>array('index')),
-		array('label'=>Yii::t('app', 'Create') . ' ' . $model->label(), 'url'=>array('create')),
-	);
+$this->menu=array(
+	array('label'=>'List Company','url'=>array('index')),
+	array('label'=>'Create Company','url'=>array('create')),
+);
 
 Yii::app()->clientScript->registerScript('search', "
 $('.search-button').click(function(){
@@ -24,33 +23,55 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1><?php echo Yii::t('app', 'Manage') . ' ' . GxHtml::encode($model->label(2)); ?></h1>
+<h1>Manage Companies</h1>
 
 <p>
-You may optionally enter a comparison operator (&lt;, &lt;=, &gt;, &gt;=, &lt;&gt; or =) at the beginning of each of your search values to specify how the comparison should be done.
+You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
+or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
 </p>
 
-<?php echo GxHtml::link(Yii::t('app', 'Advanced Search'), '#', array('class' => 'search-button')); ?>
-<div class="search-form">
-<?php $this->renderPartial('_search', array(
-	'model' => $model,
+<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button btn')); ?>
+<div class="search-form" style="display:none">
+<?php $this->renderPartial('_search',array(
+	'model'=>$model,
 )); ?>
 </div><!-- search-form -->
 
-<?php $this->widget('zii.widgets.grid.CGridView', array(
-	'id' => 'company-grid',
-	'dataProvider' => $model->search(),
-	'filter' => $model,
-	'columns' => array(
-		'id',
-		'name',
+<?php $this->widget('bootstrap.widgets.TbGridView',array(
+	'id'=>'company-grid',
+	'itemsCssClass' => 'table-bordered',
+	'dataProvider'=>$model->search(),
+	'filter'=>$model,
+	'columns'=>array(
 		array(
-				'name'=>'currency_iso3',
-				'value'=>'GxHtml::valueEx($data->currencyIso3)',
-				'filter'=>GxHtml::listDataEx(Currency::model()->findAllAttributes(null, true)),
-				),
+			'name' => 'id',
+			'headerHtmlOptions' => array('style' => 'width: 50px'),
+		),
 		array(
-			'class' => 'CButtonColumn',
+           'class' => 'editable.EditableColumn',
+           'name' => 'name',
+           'headerHtmlOptions' => array('style' => 'width: 200px'),
+           'editable' => array(
+                  'url'        => $this->createUrl('Company/update'),
+                  'placement'  => 'right',
+           ),
+        ),
+		array(
+		'class' => 'editable.EditableColumn',
+		'name' => 'currency_iso3',
+		'headerHtmlOptions' => array('style' => 'width: 150px'),
+		'editable' => array(
+				'type'     => 'select',
+				'url'      => $this->createUrl('Company/update'),
+				'source'   => $this->createUrl('Currency/getDropDownList'),
+				'options'  => array(    //custom display
+						'display' => 'js: function(value, sourceData) {
+                          var selected = $.grep(sourceData, function(o){ return value == o.value; }),
+                              colors = {1: "green", 2: "blue", 3: "red", 4: "gray"};
+                          $(this).text(selected[0].text).css("color", colors[value]);
+                      }'
+				)
+			)
 		),
 	),
 )); ?>

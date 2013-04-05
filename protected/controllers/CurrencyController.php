@@ -73,4 +73,9 @@ class CurrencyController extends GxController {
 		));
 	}
 
+	public function actionGetDropDownList()
+	{
+		echo CJSON::encode(CHtml::listData(Currency::model()->findAll(), 'iso3', 'iso3'));
+	}
+
 }

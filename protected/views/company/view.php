@@ -1,31 +1,25 @@
 <?php
-
-$this->breadcrumbs = array(
-	$model->label(2) => array('index'),
-	GxHtml::valueEx($model),
+$this->breadcrumbs=array(
+	'Companies'=>array('index'),
+	$model->name,
 );
 
 $this->menu=array(
-	array('label'=>Yii::t('app', 'List') . ' ' . $model->label(2), 'url'=>array('index')),
-	array('label'=>Yii::t('app', 'Create') . ' ' . $model->label(), 'url'=>array('create')),
-	array('label'=>Yii::t('app', 'Update') . ' ' . $model->label(), 'url'=>array('update', 'id' => $model->id)),
-	array('label'=>Yii::t('app', 'Delete') . ' ' . $model->label(), 'url'=>'#', 'linkOptions' => array('submit' => array('delete', 'id' => $model->id), 'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>Yii::t('app', 'Manage') . ' ' . $model->label(2), 'url'=>array('admin')),
+	array('label'=>'List Company','url'=>array('index')),
+	array('label'=>'Create Company','url'=>array('create')),
+	array('label'=>'Update Company','url'=>array('update','id'=>$model->id)),
+	array('label'=>'Delete Company','url'=>'#','linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Manage Company','url'=>array('admin')),
 );
 ?>
 
-<h1><?php echo Yii::t('app', 'View') . ' ' . GxHtml::encode($model->label()) . ' ' . GxHtml::encode(GxHtml::valueEx($model)); ?></h1>
+<h1>View Company #<?php echo $model->id; ?></h1>
 
-<?php $this->widget('zii.widgets.CDetailView', array(
-	'data' => $model,
-	'attributes' => array(
-'id',
-'name',
-array(
-			'name' => 'currencyIso3',
-			'type' => 'raw',
-			'value' => $model->currencyIso3 !== null ? GxHtml::link(GxHtml::encode(GxHtml::valueEx($model->currencyIso3)), array('currency/view', 'id' => GxActiveRecord::extractPkValue($model->currencyIso3, true))) : null,
-			),
+<?php $this->widget('bootstrap.widgets.TbDetailView',array(
+	'data'=>$model,
+	'attributes'=>array(
+		'id',
+		'name',
+		'currency_iso3',
 	),
 )); ?>
-

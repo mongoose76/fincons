@@ -60,9 +60,4 @@ class AccountLocalController extends GxController {
 			'model' => $model,
 		));
 	}
-
-	public function actionGetGroupAccountList()
-	{
-		echo CJSON::encode(CHtml::listData(AccountGroup::model()->findAll(), 'id', 'name'));
-	}
 }
