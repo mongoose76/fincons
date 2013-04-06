@@ -66,6 +66,19 @@ CREATE TABLE `company` (
 ) ENGINE=InnoDB AUTO_INCREMENT=36 DEFAULT CHARSET=utf8;
 
 #
+# Structure for the `import` table : 
+#
+
+DROP TABLE IF EXISTS `import`;
+
+CREATE TABLE `import` (
+  `ax_account` int(11) NOT NULL DEFAULT '0',
+  `accountname` varchar(500) DEFAULT NULL,
+  `MAPPING` varchar(500) DEFAULT NULL,
+  PRIMARY KEY (`ax_account`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+#
 # Structure for the `reporting_period` table : 
 #
 
@@ -76,19 +89,6 @@ CREATE TABLE `reporting_period` (
   `description` varchar(200) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
-
-#
-# Structure for the `test` table : 
-#
-
-DROP TABLE IF EXISTS `test`;
-
-CREATE TABLE `test` (
-  `ax_account` int(11) NOT NULL DEFAULT '0',
-  `accountname` varchar(500) DEFAULT NULL,
-  `MAPPING` varchar(500) DEFAULT NULL,
-  PRIMARY KEY (`ax_account`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 #
 # Structure for the `trial_balance` table : 
@@ -103,6 +103,8 @@ CREATE TABLE `trial_balance` (
   `reporting_period_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `reporting_period_id` (`reporting_period_id`),
+  KEY `account_local_id` (`account_local_id`),
+  CONSTRAINT `trial_balance_fk1` FOREIGN KEY (`account_local_id`) REFERENCES `account_local` (`id`),
   CONSTRAINT `trial_balance_fk` FOREIGN KEY (`reporting_period_id`) REFERENCES `reporting_period` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -111,7 +113,7 @@ CREATE TABLE `trial_balance` (
 #
 
 INSERT INTO `account_group` (`id`, `name`) VALUES 
-  (23,' Empty Group Account'),
+  (23,NULL),
   (116,'Accrued income'),
   (39,'Administration\r'),
   (100,'Affiliated undertakings\r'),
@@ -1587,20 +1589,10 @@ INSERT INTO `company` (`id`, `name`, `currency_iso3`) VALUES
 COMMIT;
 
 #
-# Data for the `reporting_period` table  (LIMIT 0,500)
+# Data for the `import` table  (LIMIT 0,500)
 #
 
-INSERT INTO `reporting_period` (`id`, `description`) VALUES 
-  (1,'DECEMBER 2009'),
-  (2,'DECEMBER 2010');
-
-COMMIT;
-
-#
-# Data for the `test` table  (LIMIT 0,500)
-#
-
-INSERT INTO `test` (`ax_account`, `accountname`, `MAPPING`) VALUES 
+INSERT INTO `import` (`ax_account`, `accountname`, `MAPPING`) VALUES 
   (9999,'PROFIT AND LOSS','General accruals\r'),
   (10000,'INCOME','Revenue\r'),
   (10005,'Net revenue','Revenue\r'),
@@ -2105,10 +2097,10 @@ INSERT INTO `test` (`ax_account`, `accountname`, `MAPPING`) VALUES
 COMMIT;
 
 #
-# Data for the `test` table  (LIMIT 500,500)
+# Data for the `import` table  (LIMIT 500,500)
 #
 
-INSERT INTO `test` (`ax_account`, `accountname`, `MAPPING`) VALUES 
+INSERT INTO `import` (`ax_account`, `accountname`, `MAPPING`) VALUES 
   (29026,'EXPENSE I/C End2End VAS Ltd.','Intercompany PL\r'),
   (29027,'EXPENSE I/C Cibernet PLC','Intercompany PL\r'),
   (29028,'EXPENSE I/C Cibernet Corporation','Intercompany PL\r'),
@@ -2613,10 +2605,10 @@ INSERT INTO `test` (`ax_account`, `accountname`, `MAPPING`) VALUES
 COMMIT;
 
 #
-# Data for the `test` table  (LIMIT 1000,500)
+# Data for the `import` table  (LIMIT 1000,500)
 #
 
-INSERT INTO `test` (`ax_account`, `accountname`, `MAPPING`) VALUES 
+INSERT INTO `import` (`ax_account`, `accountname`, `MAPPING`) VALUES 
   (42999,'RETAINED EARNINGS','Retained earnings\r'),
   (49999,'EQUITY','\r'),
   (51000,'PROVISIONS','Other provisions\r'),
@@ -2849,6 +2841,16 @@ INSERT INTO `test` (`ax_account`, `accountname`, `MAPPING`) VALUES
   (99999997,'Konvertering kredit','General accruals\r'),
   (99999998,'Konvertering debet','General accruals\r'),
   (99999999,'Error account','General accruals\r');
+
+COMMIT;
+
+#
+# Data for the `reporting_period` table  (LIMIT 0,500)
+#
+
+INSERT INTO `reporting_period` (`id`, `description`) VALUES 
+  (1,'DECEMBER 2009'),
+  (2,'DECEMBER 2010');
 
 COMMIT;
 

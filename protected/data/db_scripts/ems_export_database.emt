@@ -1,0 +1,24 @@
+[General]
+TemplateVersion=306
+ExtractCompletely=1
+ExtractMetadata=1
+ExtractData=1
+ExtractAll=0
+ExtractDataTables=Selected
+ScriptOptions=1
+FileName=E:\Dropbox\Work\fincons\protected\data\db_scripts\fincons.sql
+AbortOnError=1
+[Options]
+GenerateCreateDB=0
+GenerateUseDB=0
+GenerateDropStatements=1
+GenerateDropDBStatements=0
+GenerateSetNames=1
+CommitAfter=500
+InsertCommit=1
+DataAfterDefinition=0
+LoadToEditor=1
+DisableForeignChecks=1
+DependentObjects=0
+ExtractForVersionIndex=0
+FileCharset=Database default
