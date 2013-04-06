@@ -15,6 +15,7 @@
  * @property string $name
  *
  * @property AccountGroup $accountGroup
+ * @property TrialBalance[] $trialBalances
  */
 abstract class BaseAccountLocal extends GxActiveRecord {
 
@@ -46,6 +47,7 @@ abstract class BaseAccountLocal extends GxActiveRecord {
 	public function relations() {
 		return array(
 			'accountGroup' => array(self::BELONGS_TO, 'AccountGroup', 'account_group_id'),
+			'trialBalances' => array(self::HAS_MANY, 'TrialBalance', 'account_local_id'),
 		);
 	}
 
@@ -61,6 +63,7 @@ abstract class BaseAccountLocal extends GxActiveRecord {
 			'ax_account' => Yii::t('app', 'Ax Account'),
 			'name' => Yii::t('app', 'Name'),
 			'accountGroup' => null,
+			'trialBalances' => null,
 		);
 	}
 

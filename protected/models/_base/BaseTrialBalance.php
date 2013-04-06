@@ -14,6 +14,7 @@
  * @property string $amount
  * @property integer $reporting_period_id
  *
+ * @property AccountLocal $accountLocal
  * @property ReportingPeriod $reportingPeriod
  */
 abstract class BaseTrialBalance extends GxActiveRecord {
@@ -45,6 +46,7 @@ abstract class BaseTrialBalance extends GxActiveRecord {
 
 	public function relations() {
 		return array(
+			'accountLocal' => array(self::BELONGS_TO, 'AccountLocal', 'account_local_id'),
 			'reportingPeriod' => array(self::BELONGS_TO, 'ReportingPeriod', 'reporting_period_id'),
 		);
 	}
@@ -57,9 +59,10 @@ abstract class BaseTrialBalance extends GxActiveRecord {
 	public function attributeLabels() {
 		return array(
 			'id' => Yii::t('app', 'ID'),
-			'account_local_id' => Yii::t('app', 'Account Local'),
+			'account_local_id' => null,
 			'amount' => Yii::t('app', 'Amount'),
 			'reporting_period_id' => null,
+			'accountLocal' => null,
 			'reportingPeriod' => null,
 		);
 	}

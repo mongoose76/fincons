@@ -138,11 +138,15 @@ class TrialBalanceController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new TrialBalance('search');
-		$model->unsetAttributes();  // clear any default values
+		$reporting_period_id = 1;
+		$model=new TrialBalanceForm();
+		//$model = AccountLocal::model()->with( array( 'trialBalances'=>array('on' => "reporting_period_id={$reporting_period_id}") ) );
+		
+		$model->unsetAttributes();
+		
 		if(isset($_GET['TrialBalance']))
 			$model->attributes=$_GET['TrialBalance'];
-
+		
 		$this->render('admin',array(
 			'model'=>$model,
 		));
