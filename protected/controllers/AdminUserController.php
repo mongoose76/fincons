@@ -1,6 +1,6 @@
 <?php
 
-class ReportingPeriodController extends Controller
+class AdminUserController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -28,7 +28,7 @@ class ReportingPeriodController extends Controller
 		return array(
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('index','view', 'create','update', 'admin','delete'),
-				'users'=>array('administrator', 'accountant'),
+				'users'=>array('administrator'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -53,14 +53,14 @@ class ReportingPeriodController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new ReportingPeriod;
+		$model=new AdminUser;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['ReportingPeriod']))
+		if(isset($_POST['AdminUser']))
 		{
-			$model->attributes=$_POST['ReportingPeriod'];
+			$model->attributes=$_POST['AdminUser'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -82,9 +82,9 @@ class ReportingPeriodController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['ReportingPeriod']))
+		if(isset($_POST['AdminUser']))
 		{
-			$model->attributes=$_POST['ReportingPeriod'];
+			$model->attributes=$_POST['AdminUser'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -119,7 +119,7 @@ class ReportingPeriodController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('ReportingPeriod');
+		$dataProvider=new CActiveDataProvider('AdminUser');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
@@ -130,10 +130,10 @@ class ReportingPeriodController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new ReportingPeriod('search');
+		$model=new AdminUser('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['ReportingPeriod']))
-			$model->attributes=$_GET['ReportingPeriod'];
+		if(isset($_GET['AdminUser']))
+			$model->attributes=$_GET['AdminUser'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -147,7 +147,7 @@ class ReportingPeriodController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=ReportingPeriod::model()->findByPk($id);
+		$model=AdminUser::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -159,7 +159,7 @@ class ReportingPeriodController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='reporting-period-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='admin-user-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

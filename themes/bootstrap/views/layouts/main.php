@@ -14,18 +14,24 @@
 
 <body>
 
+<?php 
+$is_administrator = Yii::app()->user->checkAccess(UserIdentity::ADMINISTRATOR);
+$is_accountant = Yii::app()->user->checkAccess(UserIdentity::ACCOUNTANT);
+?>
+
 <?php $this->widget('bootstrap.widgets.TbNavbar',array(
     'items'=>array(
         array(
             'class'=>'bootstrap.widgets.TbMenu',
             'items'=>array(
                 array('label'=>'Home', 'url'=>array('/site/index')),
-            	array('label'=>'Trial Balance', 'url'=>array('/TrialBalance/admin')),
-            	array('label'=>'Local Accounts', 'url'=>array('/AccountLocal/admin')),
-            	array('label'=>'Group Accounts', 'url'=>array('/AccountGroup/admin')),
-            	array('label'=>'Companies', 'url'=>array('/Company/admin')),
-            	array('label'=>'Currencies', 'url'=>array('/Currency/admin')),
-            	array('label'=>'Reporting Period', 'url'=>array('/ReportingPeriod/admin')),
+            	array('label'=>'Trial Balance', 'url'=>array('/TrialBalance/admin'), 'visible'=>$is_accountant),
+            	array('label'=>'Local Accounts', 'url'=>array('/AccountLocal/admin'), 'visible'=>$is_accountant),
+            	array('label'=>'Group Accounts', 'url'=>array('/AccountGroup/admin'), 'visible'=>$is_administrator),
+            	array('label'=>'Companies', 'url'=>array('/Company/admin'), 'visible'=>$is_administrator),
+            	array('label'=>'Currencies', 'url'=>array('/Currency/admin'), 'visible'=>$is_administrator),
+            	array('label'=>'Reporting Period', 'url'=>array('/ReportingPeriod/admin'), 'visible'=>$is_administrator),
+            	array('label'=>'Admin Accounts', 'url'=>array('/AdminUser/admin'), 'visible'=>$is_administrator),
                 array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
                 array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
             ),
