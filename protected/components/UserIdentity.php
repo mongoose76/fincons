@@ -11,6 +11,8 @@ class UserIdentity extends CUserIdentity
 	const ADMINISTRATOR = 'administrator';
 	const ACCOUNTANT = 'accountant';
 
+	public $role;
+	
     private $_id;
     
     const ERROR_USER_DISABLED = 200;
@@ -35,6 +37,11 @@ class UserIdentity extends CUserIdentity
             $this->setState('name', $user->username);
             $this->setState('id_company', $user->id_company);
             
+            foreach ( Yii::app()->authManager->getRoles($this->_id) as $role=>$obj) {
+            	$this->role .= $role;
+            }
+            $this->setState('role', $this->role);
+            
            	$this->errorCode=self::ERROR_NONE;
         }
         return $this->errorCode==self::ERROR_NONE;
@@ -42,6 +49,6 @@ class UserIdentity extends CUserIdentity
     
     public function getId()
     {
-        return $this->_id;
+    	return $this->_id;
     }
 }

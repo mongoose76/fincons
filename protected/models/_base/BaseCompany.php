@@ -13,6 +13,7 @@
  * @property string $name
  * @property string $currency_iso3
  *
+ * @property AdminUser[] $adminUsers
  * @property Currency $currencyIso3
  */
 abstract class BaseCompany extends GxActiveRecord {
@@ -35,7 +36,7 @@ abstract class BaseCompany extends GxActiveRecord {
 
 	public function rules() {
 		return array(
-			array('name', 'length', 'max'=>500),
+			array('name', 'length', 'max'=>200),
 			array('currency_iso3', 'length', 'max'=>3),
 			array('name, currency_iso3', 'default', 'setOnEmpty' => true, 'value' => null),
 			array('id, name, currency_iso3', 'safe', 'on'=>'search'),
@@ -44,12 +45,14 @@ abstract class BaseCompany extends GxActiveRecord {
 
 	public function relations() {
 		return array(
+			'adminUsers' => array(self::MANY_MANY, 'AdminUser', 'admin_user_company(company_id, admin_user_id)'),
 			'currencyIso3' => array(self::BELONGS_TO, 'Currency', 'currency_iso3'),
 		);
 	}
 
 	public function pivotModels() {
 		return array(
+			'adminUsers' => 'AdminUserCompany',
 		);
 	}
 
@@ -58,6 +61,7 @@ abstract class BaseCompany extends GxActiveRecord {
 			'id' => Yii::t('app', 'ID'),
 			'name' => Yii::t('app', 'Name'),
 			'currency_iso3' => null,
+			'adminUsers' => null,
 			'currencyIso3' => null,
 		);
 	}

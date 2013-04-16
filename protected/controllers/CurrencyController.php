@@ -27,7 +27,7 @@ class CurrencyController extends Controller
 	{
 		return array(
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('index','view', 'create','update', 'admin','delete'),
+				'actions'=>array('index','view', 'create','update', 'admin','delete','getDropDownList'),
 				'users'=>array('administrator'),
 			),
 			array('deny',  // deny all users

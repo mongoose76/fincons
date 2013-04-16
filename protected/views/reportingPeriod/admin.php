@@ -39,6 +39,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 
 <?php $this->widget('bootstrap.widgets.TbGridView',array(
 	'id'=>'reporting-period-grid',
+	'itemsCssClass' => 'table-bordered',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(

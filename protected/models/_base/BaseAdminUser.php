@@ -7,15 +7,15 @@
  * property or method in class "AdminUser".
  *
  * Columns in table "admin_user" available as properties of the model,
- * and there are no model relations.
+ * followed by relations of table "admin_user" available as properties of the model.
  *
  * @property integer $id
  * @property string $username
  * @property string $password
  * @property string $email
  * @property integer $is_active
- * @property integer $id_company
  *
+ * @property Company[] $companies
  */
 abstract class BaseAdminUser extends GxActiveRecord {
 
@@ -38,20 +38,22 @@ abstract class BaseAdminUser extends GxActiveRecord {
 	public function rules() {
 		return array(
 			array('username, password, email', 'required'),
-			array('is_active, id_company', 'numerical', 'integerOnly'=>true),
+			array('is_active', 'numerical', 'integerOnly'=>true),
 			array('username, password, email', 'length', 'max'=>128),
-			array('is_active, id_company', 'default', 'setOnEmpty' => true, 'value' => null),
-			array('id, username, password, email, is_active, id_company', 'safe', 'on'=>'search'),
+			array('is_active', 'default', 'setOnEmpty' => true, 'value' => null),
+			array('id, username, password, email, is_active', 'safe', 'on'=>'search'),
 		);
 	}
 
 	public function relations() {
 		return array(
+			'companies' => array(self::MANY_MANY, 'Company', 'admin_user_company(admin_user_id, company_id)'),
 		);
 	}
 
 	public function pivotModels() {
 		return array(
+			'companies' => 'AdminUserCompany',
 		);
 	}
 
@@ -62,7 +64,7 @@ abstract class BaseAdminUser extends GxActiveRecord {
 			'password' => Yii::t('app', 'Password'),
 			'email' => Yii::t('app', 'Email'),
 			'is_active' => Yii::t('app', 'Is Active'),
-			'id_company' => Yii::t('app', 'Id Company'),
+			'companies' => null,
 		);
 	}
 
@@ -74,7 +76,6 @@ abstract class BaseAdminUser extends GxActiveRecord {
 		$criteria->compare('password', $this->password, true);
 		$criteria->compare('email', $this->email, true);
 		$criteria->compare('is_active', $this->is_active);
-		$criteria->compare('id_company', $this->id_company);
 
 		return new CActiveDataProvider($this, array(
 			'criteria' => $criteria,

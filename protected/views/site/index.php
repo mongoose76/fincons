@@ -4,8 +4,16 @@
 $this->pageTitle=Yii::app()->name;
 ?>
 
-<h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
+<?php $this->beginWidget('bootstrap.widgets.TbHeroUnit',array(
+    'heading'=>'Welcome to '.CHtml::encode(Yii::app()->name),
+)); ?>
 
-<p>Select an item from the menu to move forward.</p>
+<?php $this->endWidget(); ?>
 
-Your current IP address is <?php echo Yii::app()->request->userHostAddress ?>
+<?php
+$this->breadcrumbs=array(
+	'Home'=>array('index'),
+);
+?>
+
+<h3>Please use the menu on top of the page to move forward</h3>
