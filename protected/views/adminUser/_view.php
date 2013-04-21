@@ -16,5 +16,8 @@
 	<?php echo GxHtml::encode($data->getAttributeLabel('is_active')); ?>:
 	<?php echo GxHtml::encode($data->is_active); ?>
 	<br />
+	<?php echo GxHtml::encode($data->getAttributeLabel('admin_user_role_id')); ?>:
+		<?php echo GxHtml::encode(GxHtml::valueEx($data->adminUserRole)); ?>
+	<br />
 
 </div>

@@ -6,20 +6,12 @@ public function filters() {
 
 public function accessRules() {
 	return array(
-			array('allow',
-				'actions'=>array('index','view'),
+			array('allow', // allow admin user to perform 'admin' and 'delete' actions
+				'actions'=>array('index','view', 'create','update', 'admin','delete','getDropDownList'),
+				'users'=>array(UserIdentity::ACCOUNTANT, UserIdentity::ADMINISTRATOR),
+			),
+			array('deny',  // deny all users
 				'users'=>array('*'),
-				),
-			array('allow', 
-				'actions'=>array('minicreate', 'create','update'),
-				'users'=>array('@'),
-				),
-			array('allow', 
-				'actions'=>array('admin','delete'),
-				'users'=>array('admin'),
-				),
-			array('deny', 
-				'users'=>array('*'),
-				),
-			);
+			),
+		);
 }

@@ -35,7 +35,7 @@ class UserIdentity extends CUserIdentity
         } else {
             $this->_id=$user->username;
             $this->setState('name', $user->username);
-            $this->setState('id_company', $user->id_company);
+            //$this->setState('id_company', $user->id_company);
             
             foreach ( Yii::app()->authManager->getRoles($this->_id) as $role=>$obj) {
             	$this->role .= $role;

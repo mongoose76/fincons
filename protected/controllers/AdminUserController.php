@@ -2,6 +2,23 @@
 
 class AdminUserController extends GxController {
 
+public function filters() {
+	return array(
+			'accessControl', 
+			);
+}
+
+public function accessRules() {
+	return array(
+			array('allow', // allow admin user to perform 'admin' and 'delete' actions
+				'actions'=>array('index','view', 'create','update', 'admin','delete','getDropDownList'),
+				'users'=>array('administrator'),
+			),
+			array('deny',  // deny all users
+				'users'=>array('*'),
+			),
+		);
+}
 
 	public function actionView($id) {
 		$this->render('view', array(
@@ -12,6 +29,7 @@ class AdminUserController extends GxController {
 	public function actionCreate() {
 		$model = new AdminUser;
 
+		$this->performAjaxValidation($model, 'admin-user-form');
 
 		if (isset($_POST['AdminUser'])) {
 			$model->setAttributes($_POST['AdminUser']);
@@ -33,6 +51,7 @@ class AdminUserController extends GxController {
 	public function actionUpdate($id) {
 		$model = $this->loadModel($id, 'AdminUser');
 
+		$this->performAjaxValidation($model, 'admin-user-form');
 
 		if (isset($_POST['AdminUser'])) {
 			$model->setAttributes($_POST['AdminUser']);
@@ -41,7 +60,12 @@ class AdminUserController extends GxController {
 				);
 
 			if ($model->saveWithRelated($relatedData)) {
+				foreach (Yii::app()->authManager->getAuthItems(2, $model->username) as $authItem) {
+	            	Yii::app()->authManager->revoke($authItem->name, $model->username);
+	            }
+				Yii::app()->authManager->assign($model->adminUserRole->role, $model->username);
 				$this->redirect(array('view', 'id' => $model->id));
+				
 			}
 		}
 

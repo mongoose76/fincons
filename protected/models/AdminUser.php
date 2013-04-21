@@ -11,6 +11,10 @@ class AdminUser extends BaseAdminUser
 		return parent::model($className);
 	}
 	
+	public static function label($n = 1) {
+		return Yii::t('app', 'User|Users', $n);
+	}
+	
 	public function validatePassword($password)
 	{
 		return $this->hashPassword($password)===$this->password;
@@ -28,9 +32,10 @@ class AdminUser extends BaseAdminUser
 			if (strlen($this->password_unhashed) > 0)
 			{
 				$this->password = $this->hashPassword($this->password_unhashed);
+				return true;
+			} else {
+				return false;
 			}
-
-			return true;
 		} else {
 			return false;
 		}

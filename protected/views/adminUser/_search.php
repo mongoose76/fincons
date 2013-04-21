@@ -1,6 +1,5 @@
-<div class="wide form">
 
-<?php $form = $this->beginWidget('GxActiveForm', array(
+<?php $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', array(
 	'action' => Yii::app()->createUrl($this->route),
 	'method' => 'get',
 )); ?>
@@ -22,13 +21,20 @@
 
 	<div class="row">
 		<?php echo $form->label($model, 'is_active'); ?>
-		<?php echo $form->textField($model, 'is_active'); ?>
+		<?php echo $form->dropDownList($model, 'is_active', array('0' => Yii::t('app', 'No'), '1' => Yii::t('app', 'Yes')), array('prompt' => Yii::t('app', 'All'))); ?>
 	</div>
 
-	<div class="row buttons">
-		<?php echo GxHtml::submitButton(Yii::t('app', 'Search')); ?>
+	<div class="row">
+		<?php echo $form->label($model, 'admin_user_role_id'); ?>
+		<?php echo $form->dropDownList($model, 'admin_user_role_id', GxHtml::listDataEx(AdminUserRole::model()->findAllAttributes(null, true)), array('prompt' => Yii::t('app', 'All'))); ?>
 	</div>
 
+
+	<div class="form-actions">
+		<?php $this->widget('bootstrap.widgets.TbButton', array(
+			'buttonType'=>'submit',
+			'type'=>'primary',
+			'label'=>'Search',
+		)); ?>
+	</div>
 <?php $this->endWidget(); ?>
-
-</div><!-- search-form -->

@@ -45,8 +45,9 @@ You may optionally enter a comparison operator (&lt;, &lt;=, &gt;, &gt;=, &lt;&g
 )); ?>\n"; ?>
 </div><!-- search-form -->
 
-<?php echo '<?php'; ?> $this->widget('zii.widgets.grid.CGridView', array(
+<?php echo '<?php'; ?> $this->widget('bootstrap.widgets.TbGridView', array(
 	'id' => '<?php echo $this->class2id($this->modelClass); ?>-grid',
+	'itemsCssClass' => 'table-bordered',
 	'dataProvider' => $model->search(),
 	'filter' => $model,
 	'columns' => array(
@@ -61,7 +62,7 @@ if ($count >= 7)
 	echo "\t\t*/\n";
 ?>
 		array(
-			'class' => 'CButtonColumn',
+			'class'=>'bootstrap.widgets.TbButtonColumn',
 		),
 	),
 )); ?>

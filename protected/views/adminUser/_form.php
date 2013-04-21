@@ -3,7 +3,7 @@
 
 <?php $form = $this->beginWidget('GxActiveForm', array(
 	'id' => 'admin-user-form',
-	'enableAjaxValidation' => false,
+	'enableAjaxValidation' => true,
 ));
 ?>
 
@@ -19,8 +19,8 @@
 		<?php echo $form->error($model,'username'); ?>
 		</div><!-- row -->
 		<div class="row">
-		<?php echo $form->labelEx($model,'password'); ?>
-		<?php echo $form->passwordField($model, 'password', array('maxlength' => 128)); ?>
+		<?php echo $form->labelEx($model,'password_unhashed'); ?>
+		<?php echo $form->passwordField($model, 'password_unhashed', array('maxlength' => 128)); ?>
 		<?php echo $form->error($model,'password'); ?>
 		</div><!-- row -->
 		<div class="row">
@@ -32,6 +32,11 @@
 		<?php echo $form->labelEx($model,'is_active'); ?>
 		<?php echo $form->checkBox($model, 'is_active'); ?>
 		<?php echo $form->error($model,'is_active'); ?>
+		</div><!-- row -->
+		<div class="row">
+		<?php echo $form->labelEx($model,'admin_user_role_id'); ?>
+		<?php echo $form->dropDownList($model, 'admin_user_role_id', GxHtml::listDataEx(AdminUserRole::model()->findAllAttributes(null, true))); ?>
+		<?php echo $form->error($model,'admin_user_role_id'); ?>
 		</div><!-- row -->
 
 		<label><?php echo GxHtml::encode($model->getRelationLabel('companies')); ?></label>

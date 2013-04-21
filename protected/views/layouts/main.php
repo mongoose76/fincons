@@ -33,25 +33,30 @@ $is_accountant = Yii::app()->user->checkAccess(UserIdentity::ACCOUNTANT);
             	array('label'=>'Reporting Period', 'url'=>array('/ReportingPeriod/admin'), 'visible'=>$is_administrator),
             	array('label'=>'Admin Accounts', 'url'=>array('/AdminUser/admin'), 'visible'=>$is_administrator),
                 array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-                array('label'=>'Logout ('.Yii::app()->user->name.' logged as '.Yii::app()->user->role.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)            	
+                array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest),
             ),
         ),
     ),
 )); ?>
 
-<div class="container" id="page">
-
-	<?php 
+<div style="display: block; position: absolute; margin-left:auto; margin-right:0px; z-index: 10000">
+<?php 
+if (!Yii::app()->user->isGuest) {
 	$company = new Company();
 	$form=$this->beginWidget('bootstrap.widgets.TbActiveForm',array(
 		'id'=>'company-selection-form',
 		'enableAjaxValidation'=>false,
 	));
-		
-		echo $form->dropDownList($company, 'id', GxHtml::listDataEx(Company::model()->findAllAttributes(null, true)));
-		
-	$this->endWidget(); 
-	?>
+
+	$user = AdminUser::model()->findByAttributes(array('username'=>Yii::app()->user->id));
+	echo $form->dropDownList($company, 'id', GxHtml::listDataEx($user->companies));
+
+	$this->endWidget();
+}
+?>
+</div>
+
+<div class="container" id="page">
 
 	<?php if(isset($this->breadcrumbs)):?>
 		<?php $this->widget('bootstrap.widgets.TbBreadcrumbs', array(

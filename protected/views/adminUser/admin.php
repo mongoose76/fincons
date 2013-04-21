@@ -31,14 +31,15 @@ You may optionally enter a comparison operator (&lt;, &lt;=, &gt;, &gt;=, &lt;&g
 </p>
 
 <?php echo GxHtml::link(Yii::t('app', 'Advanced Search'), '#', array('class' => 'search-button')); ?>
-<div class="search-form">
+<div class="search-form" style="display:none">
 <?php $this->renderPartial('_search', array(
 	'model' => $model,
 )); ?>
 </div><!-- search-form -->
 
-<?php $this->widget('zii.widgets.grid.CGridView', array(
+<?php $this->widget('bootstrap.widgets.TbGridView', array(
 	'id' => 'admin-user-grid',
+	'itemsCssClass' => 'table-bordered',
 	'dataProvider' => $model->search(),
 	'filter' => $model,
 	'columns' => array(
@@ -46,9 +47,18 @@ You may optionally enter a comparison operator (&lt;, &lt;=, &gt;, &gt;=, &lt;&g
 		'username',
 		'password',
 		'email',
-		'is_active',
 		array(
-			'class' => 'CButtonColumn',
+					'name' => 'is_active',
+					'value' => '($data->is_active === 0) ? Yii::t(\'app\', \'No\') : Yii::t(\'app\', \'Yes\')',
+					'filter' => array('0' => Yii::t('app', 'No'), '1' => Yii::t('app', 'Yes')),
+					),
+		array(
+				'name'=>'admin_user_role_id',
+				'value'=>'GxHtml::valueEx($data->adminUserRole)',
+				'filter'=>GxHtml::listDataEx(AdminUserRole::model()->findAllAttributes(null, true)),
+				),
+		array(
+			'class'=>'bootstrap.widgets.TbButtonColumn',
 		),
 	),
 )); ?>

@@ -14,7 +14,9 @@
  * @property string $password
  * @property string $email
  * @property integer $is_active
+ * @property integer $admin_user_role_id
  *
+ * @property AdminUserRole $adminUserRole
  * @property Company[] $companies
  */
 abstract class BaseAdminUser extends GxActiveRecord {
@@ -38,15 +40,16 @@ abstract class BaseAdminUser extends GxActiveRecord {
 	public function rules() {
 		return array(
 			array('username, password, email', 'required'),
-			array('is_active', 'numerical', 'integerOnly'=>true),
+			array('is_active, admin_user_role_id', 'numerical', 'integerOnly'=>true),
 			array('username, password, email', 'length', 'max'=>128),
-			array('is_active', 'default', 'setOnEmpty' => true, 'value' => null),
-			array('id, username, password, email, is_active', 'safe', 'on'=>'search'),
+			array('is_active, admin_user_role_id', 'default', 'setOnEmpty' => true, 'value' => null),
+			array('id, username, password, email, is_active, admin_user_role_id', 'safe', 'on'=>'search'),
 		);
 	}
 
 	public function relations() {
 		return array(
+			'adminUserRole' => array(self::BELONGS_TO, 'AdminUserRole', 'admin_user_role_id'),
 			'companies' => array(self::MANY_MANY, 'Company', 'admin_user_company(admin_user_id, company_id)'),
 		);
 	}
@@ -64,6 +67,8 @@ abstract class BaseAdminUser extends GxActiveRecord {
 			'password' => Yii::t('app', 'Password'),
 			'email' => Yii::t('app', 'Email'),
 			'is_active' => Yii::t('app', 'Is Active'),
+			'admin_user_role_id' => null,
+			'adminUserRole' => null,
 			'companies' => null,
 		);
 	}
@@ -76,6 +81,7 @@ abstract class BaseAdminUser extends GxActiveRecord {
 		$criteria->compare('password', $this->password, true);
 		$criteria->compare('email', $this->email, true);
 		$criteria->compare('is_active', $this->is_active);
+		$criteria->compare('admin_user_role_id', $this->admin_user_role_id);
 
 		return new CActiveDataProvider($this, array(
 			'criteria' => $criteria,

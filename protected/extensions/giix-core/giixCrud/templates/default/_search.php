@@ -4,9 +4,8 @@
  * - $this: the CrudCode object
  */
 ?>
-<div class="wide form">
 
-<?php echo "<?php \$form = \$this->beginWidget('GxActiveForm', array(
+<?php echo "<?php \$form = \$this->beginWidget('bootstrap.widgets.TbActiveForm', array(
 	'action' => Yii::app()->createUrl(\$this->route),
 	'method' => 'get',
 )); ?>\n"; ?>
@@ -23,10 +22,13 @@
 	</div>
 
 <?php endforeach; ?>
-	<div class="row buttons">
-		<?php echo "<?php echo GxHtml::submitButton(Yii::t('app', 'Search')); ?>\n"; ?>
-	</div>
+
+	<?php echo "<div class=\"form-actions\">
+		<?php \$this->widget('bootstrap.widgets.TbButton', array(
+			'buttonType'=>'submit',
+			'type'=>'primary',
+			'label'=>'Search',
+		)); \?>
+	</div>"; ?>
 
 <?php echo "<?php \$this->endWidget(); ?>\n"; ?>
-
-</div><!-- search-form -->

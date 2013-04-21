@@ -23,7 +23,12 @@ $this->menu=array(
 'username',
 'password',
 'email',
-'is_active',
+'is_active:boolean',
+array(
+			'name' => 'adminUserRole',
+			'type' => 'raw',
+			'value' => $model->adminUserRole !== null ? GxHtml::link(GxHtml::encode(GxHtml::valueEx($model->adminUserRole)), array('adminUserRole/view', 'id' => GxActiveRecord::extractPkValue($model->adminUserRole, true))) : null,
+			),
 	),
 )); ?>
 
