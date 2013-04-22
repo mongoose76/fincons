@@ -40,6 +40,18 @@ CREATE TABLE `account_local` (
 ) ENGINE=InnoDB AUTO_INCREMENT=4100 DEFAULT CHARSET=utf8;
 
 #
+# Structure for the `admin_user_role` table : 
+#
+
+DROP TABLE IF EXISTS `admin_user_role`;
+
+CREATE TABLE `admin_user_role` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `role` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+#
 # Structure for the `admin_user` table : 
 #
 
@@ -51,7 +63,10 @@ CREATE TABLE `admin_user` (
   `password` varchar(128) COLLATE utf8_unicode_ci NOT NULL,
   `email` varchar(128) COLLATE utf8_unicode_ci NOT NULL,
   `is_active` tinyint(1) DEFAULT NULL,
-  PRIMARY KEY (`id`)
+  `admin_user_role_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `admini_user_role_id` (`admin_user_role_id`),
+  CONSTRAINT `admin_user_fk` FOREIGN KEY (`admin_user_role_id`) REFERENCES `admin_user_role` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 #
@@ -1564,12 +1579,22 @@ INSERT INTO `account_local` (`id`, `account_group_id`, `ax_account`, `name`) VAL
 COMMIT;
 
 #
+# Data for the `admin_user_role` table  (LIMIT 0,500)
+#
+
+INSERT INTO `admin_user_role` (`id`, `role`) VALUES 
+  (1,'administrator'),
+  (2,'accountant');
+
+COMMIT;
+
+#
 # Data for the `admin_user` table  (LIMIT 0,500)
 #
 
-INSERT INTO `admin_user` (`id`, `username`, `password`, `email`, `is_active`) VALUES 
-  (1,'acc','acc','accountant@example.com',0),
-  (2,'admin','21232f297a57a5a743894a0e4a801fc3','administrator@example.com',1);
+INSERT INTO `admin_user` (`id`, `username`, `password`, `email`, `is_active`, `admin_user_role_id`) VALUES 
+  (1,'accountant','33ab7c4c5531c151b17728dc7753fe43','accountant@example.com',1,2),
+  (2,'administrator','e6cfb4aa1f82f82eab82dd460113a9a8','administrator@example.com',1,1);
 
 COMMIT;
 
@@ -1643,7 +1668,7 @@ INSERT INTO `admin_user_company` (`admin_user_id`, `company_id`) VALUES
   (1,3),
   (1,36),
   (2,3),
-  (2,31),
+  (2,35),
   (2,36);
 
 COMMIT;
